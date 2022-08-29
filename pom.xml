@@ -12,5 +12,18 @@
         <module>thread</module>
     </modules>
 
+    <properties>
+        <version-latest>LATEST</version-latest>
+    </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <!--lombok-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${version-latest}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
