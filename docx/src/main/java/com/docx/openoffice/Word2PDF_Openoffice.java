@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 
 /*
- * 通过openoffice的方式将word转为PDF
+ * 通过openoffice/libreoffice的方式将word转为PDF
  */
 @Service
 public class Word2PDF_Openoffice {

@@ -82,6 +82,15 @@
             <systemPath>${project.basedir}/src/main/resources/lib/aspose-words-15.12.0-jdk16.jar</systemPath>
         </dependency>
 
+        <!--jacob方式1-->
+        <dependency>
+            <groupId>com.jacob</groupId>
+            <artifactId>jacob</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/jacob.jar</systemPath>
+        </dependency>
+
         <!--documents4j的方式-->
         <!-- documents4j -->
         <dependency>
